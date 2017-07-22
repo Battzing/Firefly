@@ -1,0 +1,263 @@
+
+
+ .color .theme-color{
+     color: pink!important;
+ }
+
+ .color .theme-border{
+     border-color: pink!important;
+ }
+
+ .color .theme-bg{
+     background: pink!important;
+ }
+
+ .layout-box {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+}
+
+ box {
+    z-index: 100;
+}
+
+ .layout-touch {
+    top: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 60%;
+}
+
+ .title {
+    padding: 1rem 4%;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+ .title span {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #cccccc ;
+    border-bottom: 2px solid #cccccc;
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    -ms-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+
+}
+
+ .title i {
+    height: 100%;
+    width: 0;
+    padding-left: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ .title img {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 14px
+
+}
+
+ .days {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f7f7f7;
+    font-size: 13px;
+    color: #999;
+}
+
+ .days li {
+    width: 25%;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+     text-align: center;
+}
+
+ .days li img {
+    width: 1.4rem;
+}
+
+ .days li p {
+    font-size: 10px;
+     margin-top: 0.2rem;
+}
+
+ .time {
+    overflow: auto;
+    height: 60%;
+}
+
+ .time ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 1rem 4% 2rem;
+}
+
+ .time li {
+    width: 22%;
+    padding: 1rem 0;
+    border: 1px solid transparent;
+    margin-bottom: 0.5rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 4%;
+     text-align: center;
+}
+
+ .time li:nth-child(4n) {
+    margin-right: 0;
+}
+
+ .time .theme-bg {
+    color: #fff;
+}
+
+ .week {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+ .week li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    padding: 1rem 0;
+    background: #f7f7f7;
+    font-size: 16px;
+    color: #666;
+}
+
+ .box {
+     overflow: auto;
+ }
+
+ .box,  .time-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+     background: #fff;
+}
+
+ .btn-box {
+    padding: 1rem 8%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+ .handleOk {
+    color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+ .year {
+    padding: 0.5rem 0;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+     text-align: center;
+}
+
+ .month {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: #333;
+}
+
+ .month li {
+    width: 14.2857%;
+    padding: 1.2rem 0;
+    position: relative;
+     text-align: center;
+}
+
+ .month i {
+    display: block;
+    font-size: 10px;
+    color: #999;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0.2rem;
+
+}
+
+ .month .theme-bg {
+    color: #fff;
+}
+
+ .month .theme-bg i {
+    color: #fff;
+}
